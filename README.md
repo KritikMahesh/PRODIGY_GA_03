@@ -1,41 +1,49 @@
-# 🖼️ Project: Image Generation with Pre-trained Models
+# 📝 Project: Text Generation with Markov Chains  
 
-**Platform:** Python (Jupyter Notebook / Google Colab)  
+**Platform:** Python (Jupyter Notebook / Google Colab / Kaggle)  
 
 **Libraries Used:**  
-- PyTorch  
-- Diffusers (Hugging Face)  
-- Matplotlib  
-- PIL (Python Imaging Library)  
-- JSON & datetime utilities  
+- markovify  
+- matplotlib  
+- wordcloud  
+- requests  
+- collections (Counter)  
+- re (regular expressions)  
 
 ---
 
-## 🎯 Project Objective
-Utilize **pre-trained generative models** such as **Stable Diffusion** to create images from natural language prompts.  
-Explore the model’s ability to generate creative, high-quality, and contextually relevant images.
+## 🎯 Project Objective  
+Build a **text generation model** using **Markov chains** to learn patterns from a given text corpus and generate new, coherent sentences.  
+Enhance the project with **visualizations** such as word frequency charts and word clouds for better text analysis.  
 
 ---
 
-## 📦 What's Inside
-- Install and load the **Stable Diffusion Pipeline** from Hugging Face Diffusers  
-- Prepare and customize **text prompts** for generation  
-- Generate multiple images from a single prompt  
-- Visualize results using **Matplotlib**  
-- Save generated images with timestamps for record-keeping  
+## 📦 What's Inside  
+- Load sample text (e.g., *Alice’s Adventures in Wonderland* from Project Gutenberg)  
+- Option to upload and train on **your own `.txt` files**  
+- Generate text using:  
+  - **Word-level Markov model**  
+  - **Character-level Markov model**  
+- Visualize text data using:  
+  - **Top 20 most common words (bar chart)**  
+  - **Word cloud representation**  
 
 ---
 
-## 🛠 Techniques Used
-- **Pre-trained diffusion models** for text-to-image synthesis  
-- Hugging Face **Diffusers** API  
-- **Prompt engineering** to influence output quality and style  
-- Image visualization with **Matplotlib**  
-- File management & logging for generated outputs  
+## 🛠 Techniques Used  
+- **Markov chain text modeling** with `markovify`  
+- **Regular expression-based tokenization** for word frequency analysis  
+- **Matplotlib** for bar chart visualization  
+- **WordCloud** library for graphical text representation  
+- **Custom dataset integration** via file upload  
 
 ---
 
-## 🚀 Usage
-1. **Install Dependencies**
+## 🚀 Usage  
+1. **Install Dependencies**  
    ```bash
-   pip install torch diffusers transformers accelerate pillow matplotlib
+   pip install markovify matplotlib wordcloud requests
+---
+
+
+   
