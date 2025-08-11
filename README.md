@@ -1,6 +1,6 @@
 # 📝 Project: Text Generation with Markov Chains  
 
-**Platform:** Python (Jupyter Notebook / Google Colab / Kaggle)  
+**Platform:** Python (Jupyter Notebook / Google Colab)  
 
 **Libraries Used:**  
 - markovify  
