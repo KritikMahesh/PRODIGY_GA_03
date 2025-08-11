@@ -13,13 +13,13 @@
 ---
 
 ## 🎯 Project Objective  
-Build a **text generation model** using **Markov chains** to learn patterns from a given text corpus and generate new, coherent sentences.  
+Build a **text generation model** using **Markov chains** to learn patterns from any given text corpus and generate new, coherent sentences.  
 Enhance the project with **visualizations** such as word frequency charts and word clouds for better text analysis.  
 
 ---
 
 ## 📦 What's Inside  
-- Load sample text (e.g., *Alice’s Adventures in Wonderland* from Project Gutenberg)  
+- Load sample text from any given URL or source  
 - Option to upload and train on **your own `.txt` files**  
 - Generate text using:  
   - **Word-level Markov model**  
@@ -43,7 +43,3 @@ Enhance the project with **visualizations** such as word frequency charts and wo
 1. **Install Dependencies**  
    ```bash
    pip install markovify matplotlib wordcloud requests
----
-
-
-   
